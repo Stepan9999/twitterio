@@ -1,0 +1,100 @@
+@font-face {
+  font-family: "Press Start 2P";
+  src: url(../fonts/e3t4euO8T-267oIAQAu6jDQyK3nVivM.woff2);
+}
+body {
+  font-family: "Press Start 2P";
+  min-width: 320px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.header {
+  display: flex;
+  border-bottom: 4px rgb(57, 63, 63) solid;
+  border-radius: 3px;
+  width: 800px;
+}
+.header_comp {
+  margin: 5px;
+}
+.header_comp_title {
+  font-size: 25px;
+}
+.header_comp_title-mod {
+  font-size: 15px;
+}
+.main {
+  display: flex;
+}
+
+.main_aside {
+  margin-top: 50px;
+}
+.main_aside_section {
+  margin-top: 40px;
+  width: 180px;
+}
+.main_aside_section_btn {
+  width: 180px;
+}
+.main_aside_nav {
+  display: flex;
+  flex-direction: column;
+  width: 180px;
+}
+.nav_comp {
+  margin-top: 15px;
+  text-align: left;
+}
+.feed {
+  width: 600px;
+  margin-left: 20px;
+  border-left: 4px rgb(57, 63, 63) solid;
+  padding: 15px;
+}
+.feed_form_textarea {
+  margin: 20px 0 20px 0 !important;
+}
+.tweet {
+  margin-top: 15px !important;
+  display: flex;
+}
+.tweet_title {
+  display: flex;
+  align-items: baseline;
+  margin: 5px 0 0 10px;
+}
+.tweet_title_link{
+    font-size: 9px;
+    color: #000;
+}
+.tweet_title_link_name {
+  font-weight: bold;
+}
+.tweet_title_link_nickname {
+  font-size: 90%;
+  color: rgb(106, 117, 117);
+}
+.counter{
+  margin-left: 4px;
+}
+.tweet_title_date {
+  font-size: 8px;
+}
+.tweet_content{
+    margin: 20px 0 0 10px;
+    font-weight: 200;
+}
+.tweet_actions_container {
+    margin: 15px 0 0 7px;
+    justify-content: space-between;
+    display: flex;
+}
+.tweet_action{
+    display: flex;
+    align-items: baseline;
+}
+.actions_svg{
+    width: 20px;
+}
