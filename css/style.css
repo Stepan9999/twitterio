@@ -14,6 +14,9 @@ body {
   border-bottom: 4px rgb(57, 63, 63) solid;
   border-radius: 3px;
   width: 800px;
+  position: fixed;
+  z-index: 900;
+  background-color: #fff;
 }
 .header_comp {
   margin: 5px;
@@ -29,7 +32,8 @@ body {
 }
 
 .main_aside {
-  margin-top: 50px;
+  position: fixed;
+  margin-top: 63px;
 }
 .main_aside_section {
   margin-top: 40px;
@@ -49,13 +53,14 @@ body {
 }
 .feed {
   width: 600px;
-  margin-left: 20px;
+  margin: 60px 70px 170px 200px;
   border-left: 4px rgb(57, 63, 63) solid;
   padding: 15px;
+
 }
 .feed_form_textarea {
   margin: 20px 0 20px 0 !important;
-}
+} 
 .tweet {
   margin-top: 15px !important;
   display: flex;
